@@ -2,11 +2,11 @@ package org.example;
 
 public class MyName {
     private String name;
-    private String surName;
+    private String surname;
 
-    public MyName(String name, String surName) {
+    public MyName(String name, String surname) {
         this.name = name;
-        this.surName = surName;
+        this.surname = surname;
     }
 
     public String getName() {
@@ -17,12 +17,12 @@ public class MyName {
         this.name = name;
     }
 
-    public String getSurName() {
-        return surName;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setSurName(String surName) {
-        this.surName = surName;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
 }

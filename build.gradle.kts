@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClassName = "org.example.Main"
+    mainClass.set("org.example.Main")
 }
 
 repositories {
@@ -16,4 +16,3 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     implementation("com.google.code.gson:gson:2.10.1")
 }
-
